@@ -1,0 +1,27 @@
+week,customer,invoice_id,amount_inr,collection_probability
+Week 01,Northstar Retail,AR-2501,220000,0.90
+Week 01,Maple Systems,AR-2502,160000,0.85
+Week 02,BluePeak Foods,AR-2503,280000,0.90
+Week 02,Harbor Health,AR-2504,130000,0.80
+Week 03,Northstar Retail,AR-2505,340000,0.88
+Week 03,Eastline Works,AR-2506,190000,0.85
+Week 04,Maple Systems,AR-2507,210000,0.90
+Week 04,Atlas Learning,AR-2508,175000,0.82
+Week 05,BluePeak Foods,AR-2509,370000,0.90
+Week 05,Cedar Mobility,AR-2510,180000,0.85
+Week 06,Harbor Health,AR-2511,285000,0.88
+Week 06,Eastline Works,AR-2512,160000,0.82
+Week 07,Northstar Retail,AR-2513,410000,0.92
+Week 07,Atlas Learning,AR-2514,205000,0.85
+Week 08,Maple Systems,AR-2515,255000,0.88
+Week 08,Cedar Mobility,AR-2516,180000,0.82
+Week 09,BluePeak Foods,AR-2517,330000,0.90
+Week 09,Eastline Works,AR-2518,215000,0.85
+Week 10,Harbor Health,AR-2519,300000,0.88
+Week 10,Atlas Learning,AR-2520,195000,0.82
+Week 11,Northstar Retail,AR-2521,420000,0.90
+Week 11,Cedar Mobility,AR-2522,185000,0.85
+Week 12,Maple Systems,AR-2523,275000,0.88
+Week 12,Eastline Works,AR-2524,190000,0.82
+Week 13,BluePeak Foods,AR-2525,360000,0.90
+Week 13,Harbor Health,AR-2526,205000,0.85

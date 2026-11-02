@@ -1,0 +1,27 @@
+week,supplier,invoice_id,amount_inr,priority
+Week 01,Meridian Components,AP-4101,210000,Critical
+Week 01,Cloudline Services,AP-4102,85000,Standard
+Week 02,Meridian Components,AP-4103,240000,Critical
+Week 02,Citywide Logistics,AP-4104,95000,Standard
+Week 03,Pioneer Packaging,AP-4105,180000,Standard
+Week 03,Cloudline Services,AP-4106,78000,Standard
+Week 04,Meridian Components,AP-4107,265000,Critical
+Week 04,Oakridge Facilities,AP-4108,92000,Standard
+Week 05,Citywide Logistics,AP-4109,105000,Standard
+Week 05,Pioneer Packaging,AP-4110,175000,Standard
+Week 06,Meridian Components,AP-4111,285000,Critical
+Week 06,Cloudline Services,AP-4112,88000,Standard
+Week 07,Oakridge Facilities,AP-4113,97000,Standard
+Week 07,Pioneer Packaging,AP-4114,195000,Standard
+Week 08,Meridian Components,AP-4115,300000,Critical
+Week 08,Citywide Logistics,AP-4116,110000,Standard
+Week 09,Cloudline Services,AP-4117,91000,Standard
+Week 09,Pioneer Packaging,AP-4118,205000,Standard
+Week 10,Meridian Components,AP-4119,275000,Critical
+Week 10,Oakridge Facilities,AP-4120,99000,Standard
+Week 11,Citywide Logistics,AP-4121,115000,Standard
+Week 11,Pioneer Packaging,AP-4122,215000,Standard
+Week 12,Meridian Components,AP-4123,255000,Critical
+Week 12,Cloudline Services,AP-4124,94000,Standard
+Week 13,Oakridge Facilities,AP-4125,104000,Standard
+Week 13,Pioneer Packaging,AP-4126,220000,Standard

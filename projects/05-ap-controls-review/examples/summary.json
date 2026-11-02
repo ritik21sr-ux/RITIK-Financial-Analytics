@@ -1,0 +1,21 @@
+{
+  "dataset": "synthetic portfolio demonstration",
+  "as_of_date": "2026-11-01",
+  "invoice_rows_reviewed": 56,
+  "flagged_invoice_count": 25,
+  "exception_rows": 35,
+  "gross_invoice_exposure_inr": 3903000,
+  "rule_counts": {
+    "approval_pending_unpaid": 5,
+    "bank_change_pending_unpaid": 4,
+    "duplicate_vendor_invoice_number": 2,
+    "missing_po_over_threshold": 4,
+    "overdue_unpaid": 18,
+    "possible_near_duplicate_same_vendor_amount_date": 2
+  },
+  "thresholds": {
+    "missing_po_over_inr": 50000,
+    "near_duplicate_date_window_days": 2
+  },
+  "disclaimer": "Flags are review prompts and are not fraud or policy findings."
+}

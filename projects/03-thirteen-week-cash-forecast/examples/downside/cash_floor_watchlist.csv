@@ -1,0 +1,3 @@
+week,week_start,opening_cash_inr,expected_customer_receipts_inr,other_inflows_inr,supplier_payments_inr,payroll_inr,fixed_opex_inr,discretionary_opex_inr,capex_inr,closing_cash_inr,minimum_cash_inr,headroom_inr,below_cash_floor
+Week 12,2027-01-18,505802.5,298350.0,0.0,349000.0,168000.0,45000.0,23760.0,0.0,218392.5,500000,-281607.5,True
+Week 13,2027-01-25,218392.5,373687.5,0.0,324000.0,168000.0,45000.0,23760.0,0.0,31320.0,500000,-468680.0,True

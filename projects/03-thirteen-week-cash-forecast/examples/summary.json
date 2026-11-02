@@ -1,0 +1,12 @@
+{
+  "dataset": "synthetic portfolio demonstration",
+  "scenario": "Base",
+  "opening_cash_inr": 3500000,
+  "minimum_cash_inr": 500000,
+  "ending_cash_inr": 1456600.0,
+  "lowest_weekly_close_inr": 1456600.0,
+  "weeks_below_cash_floor": 0,
+  "maximum_cash_floor_shortfall_inr": 0,
+  "total_expected_receipts_inr": 5609600.0,
+  "total_scheduled_outflows_inr": 7653000.0
+}

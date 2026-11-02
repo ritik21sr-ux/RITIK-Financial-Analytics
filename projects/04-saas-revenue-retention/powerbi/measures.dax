@@ -1,0 +1,33 @@
+-- Model: one row per customer per observed month in customer_month_movements.
+-- Relate a Month dimension to customer_month_movements[month].
+
+Ending MRR INR = SUM(customer_month_movements[ending_mrr_inr])
+
+ARR Run Rate INR = [Ending MRR INR] * 12
+
+Opening MRR INR = SUM(customer_month_movements[opening_mrr_inr])
+
+New MRR INR = SUM(customer_month_movements[new_mrr_inr])
+
+Expansion MRR INR = SUM(customer_month_movements[expansion_mrr_inr])
+
+Contraction MRR INR = SUM(customer_month_movements[contraction_mrr_inr])
+
+Churned MRR INR = SUM(customer_month_movements[churned_mrr_inr])
+
+Net Revenue Retention =
+DIVIDE(
+    [Opening MRR INR] + [Expansion MRR INR] - [Contraction MRR INR] - [Churned MRR INR],
+    [Opening MRR INR]
+)
+
+Gross Revenue Retention =
+DIVIDE([Opening MRR INR] - [Contraction MRR INR] - [Churned MRR INR], [Opening MRR INR])
+
+Active Customers = CALCULATE(DISTINCTCOUNT(customer_month_movements[customer_id]), customer_month_movements[active_customer] = 1)
+
+New Customers = CALCULATE(DISTINCTCOUNT(customer_month_movements[customer_id]), customer_month_movements[new_mrr_inr] > 0)
+
+Churned Customers = CALCULATE(DISTINCTCOUNT(customer_month_movements[customer_id]), customer_month_movements[churned_mrr_inr] > 0)
+
+Average Revenue per Active Customer = DIVIDE([Ending MRR INR], [Active Customers])

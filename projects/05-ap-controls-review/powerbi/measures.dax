@@ -1,0 +1,17 @@
+-- Load invoice_register and exceptions; relate on invoice_id (one invoice to many rule flags).
+
+Exception Rows = COUNTROWS(exceptions)
+
+Affected Invoices = DISTINCTCOUNT(exceptions[invoice_id])
+
+Potential Exposure INR =
+SUMX(
+    VALUES(exceptions[invoice_id]),
+    CALCULATE(MAX(exceptions[amount_inr]))
+)
+
+High Priority Exception Rows =
+CALCULATE([Exception Rows], exceptions[review_priority] = "High")
+
+Overdue Unpaid Invoices =
+CALCULATE(DISTINCTCOUNT(exceptions[invoice_id]), exceptions[rule] = "overdue_unpaid")

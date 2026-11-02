@@ -1,0 +1,10 @@
+{
+  "dataset": "synthetic portfolio demonstration",
+  "customer_month_rows": 1446,
+  "month_count": 24,
+  "customer_count": 130,
+  "latest_month": "2025-12-01",
+  "latest_ending_mrr_inr": 3372000.0,
+  "latest_nrr_pct": 1.0005,
+  "definitions": "MRR movements are simulated; NRR excludes new MRR."
+}
