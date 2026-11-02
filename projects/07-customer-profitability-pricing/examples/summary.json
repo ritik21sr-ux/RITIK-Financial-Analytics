@@ -1,0 +1,11 @@
+{
+  "dataset": "synthetic portfolio demonstration",
+  "order_line_count": 830,
+  "invoice_count": 409,
+  "customer_count": 60,
+  "product_count": 6,
+  "net_revenue_inr": 141824644.0,
+  "contribution_inr": 56250270.0,
+  "contribution_margin_pct": 0.3966,
+  "interpretation": "Synthetic results only; no fixed overhead allocation or pricing recommendation."
+}

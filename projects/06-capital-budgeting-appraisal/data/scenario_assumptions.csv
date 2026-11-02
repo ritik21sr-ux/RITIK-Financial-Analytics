@@ -1,0 +1,4 @@
+scenario,year1_revenue_inr,revenue_growth_pct,gross_margin_pct,year1_opex_inr,opex_growth_pct,tax_rate_pct,discount_rate_pct,initial_capex_inr,working_capital_pct,annual_maintenance_capex_inr
+Downside,8600000,0.03,0.50,2250000,0.06,0.25,0.14,8500000,0.12,450000
+Base,10500000,0.10,0.58,2100000,0.05,0.25,0.12,8000000,0.10,400000
+Upside,11500000,0.15,0.62,1950000,0.04,0.25,0.10,7500000,0.10,350000

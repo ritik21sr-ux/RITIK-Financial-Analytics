@@ -1,0 +1,33 @@
+{
+  "dataset": "synthetic portfolio demonstration",
+  "scenarios": [
+    {
+      "scenario": "Base",
+      "discount_rate_pct": 0.12,
+      "year1_revenue_inr": 10500000.0,
+      "initial_investment_inr": 9050000.0,
+      "five_year_npv_inr": 4926930.43,
+      "irr_pct": 0.2952,
+      "discounted_payback_years": 3.49
+    },
+    {
+      "scenario": "Downside",
+      "discount_rate_pct": 0.14,
+      "year1_revenue_inr": 8600000.0,
+      "initial_investment_inr": 9532000.0,
+      "five_year_npv_inr": -3875393.23,
+      "irr_pct": -0.0335,
+      "discounted_payback_years": "Not reached"
+    },
+    {
+      "scenario": "Upside",
+      "discount_rate_pct": 0.1,
+      "year1_revenue_inr": 11500000.0,
+      "initial_investment_inr": 8650000.0,
+      "five_year_npv_inr": 12680575.67,
+      "irr_pct": 0.4932,
+      "discounted_payback_years": 2.4
+    }
+  ],
+  "sensitivity_base": "Base assumptions; revenue level and discount rate varied"
+}

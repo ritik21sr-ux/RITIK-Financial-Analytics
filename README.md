@@ -1,62 +1,42 @@
 # RITIK Financial Analytics & FP&A Portfolio
 
-An evolving portfolio of self-directed examples in financial analytics, FP&A, reporting, financial modelling, and accounting and finance automation.
+An evolving portfolio of self-directed examples in FP&A, financial analytics, Excel modelling, SQL, Python, reporting, and accounting and finance automation.
 
-> All project data is synthetic. These demonstrations are not client or employment deliverables and do not claim professional experience or verified proficiency. Each project page explains what is included, the assumptions used, and what remains planned.
+> All datasets and results are synthetic demonstrations. They are not client work, employment deliverables, or evidence of production deployment. Project pages describe the work and its limits; they do not claim verified professional proficiency.
 
-## Featured projects
+## Projects
 
-### 1. Department FP&A review and forecast
+| # | Project | Main tools | What is included |
+|---:|---|---|---|
+| 1 | [Department FP&A review and forecast](projects/01-fpna-department-review/README.md) | Excel, SQL, Power BI DAX, VBA source | Budget vs actual workbook, illustrative FY2026 forecast, variance queries, DAX starter, and macro source |
+| 2 | [Month-end bank reconciliation helper](projects/02-month-end-reconciliation/README.md) | Python | Runnable matching example, synthetic inputs, matched rows, exceptions, and summary |
+| 3 | [13-week cash flow forecast](projects/03-thirteen-week-cash-forecast/README.md) | Excel, Python | Scenario-based liquidity workbook, weekly cash bridge, and cash-floor watchlist |
+| 4 | [SaaS revenue and retention analytics](projects/04-saas-revenue-retention/README.md) | Python, SQL, Power BI DAX | Customer-month MRR movements, NRR and cohort summaries, measures, and report guide |
+| 5 | [Accounts payable controls review](projects/05-ap-controls-review/README.md) | Python, SQL, Power BI DAX | Duplicate and exception review, generated outputs, measures, and report guide |
+| 6 | [Capital budgeting and project appraisal](projects/06-capital-budgeting-appraisal/README.md) | Excel, Python | Five-year DCF workbook with NPV, IRR, scenario comparison, and sensitivity grid |
+| 7 | [Customer profitability and pricing analytics](projects/07-customer-profitability-pricing/README.md) | Excel, Python, SQL, Power BI DAX | Order-line contribution model, customer and product review, queries, and measures |
 
-A formula-driven Excel workbook compares synthetic FY2025 departmental budgets and actuals, then builds an illustrative FY2026 forecast from editable category growth assumptions. SQL variance queries, Power BI starter measures, a report build guide, forecast methodology, and VBA module source accompany it.
+## Selected workbook preview
 
-- [Download the Excel workbook](projects/01-fpna-department-review/workbooks/fy2025_review_fy2026_plan.xlsx)
-- [Project notes](projects/01-fpna-department-review/README.md)
-- Power BI `.pbix`: **Coming soon**. VBA source is not embedded in the workbook or tested in Excel.
+The cash-flow case links AR collection assumptions, AP schedules, operating costs, and weekly cash headroom. The project page includes Base and Downside sample results.
 
-### 2. Month-end bank reconciliation helper
-
-A Python command-line demo matches synthetic ledger and bank entries, then exports matched rows, exceptions, and a summary for review.
-
-- [Project notes and sample outputs](projects/02-month-end-reconciliation/README.md)
-- The script does not post entries or approve accounting actions.
-
-### 3. 13-week cash flow forecast
-
-An Excel cash bridge combines collection assumptions, supplier payment schedules, payroll, operating costs, and capex. Change the scenario to compare Base, Downside, and Upside assumptions; a Python version exports the weekly forecast and cash-floor watchlist.
-
-![Cash forecast dashboard preview](projects/03-thirteen-week-cash-forecast/images/cash_forecast_dashboard.png)
-
-- [Download the Excel workbook](projects/03-thirteen-week-cash-forecast/workbooks/13_week_cash_forecast.xlsx)
-- [Project notes, methodology, and scenarios](projects/03-thirteen-week-cash-forecast/README.md)
-- Synthetic example: Base closes at ₹1,456,600 with no weeks below the ₹500,000 floor; Downside closes at ₹31,320 and falls below the floor for two weeks.
-
-### 4. SaaS revenue and retention analytics
-
-A deterministic Python data generator creates 1,446 synthetic customer-month movement rows across 24 months for MRR, expansion, contraction, churn, NRR, and cohort retention analysis. The project includes SQL queries, Power BI DAX measures, and generated monthly and cohort summaries.
-
-- [Project notes and outputs](projects/04-saas-revenue-retention/README.md)
-- Power BI `.pbix`: **Coming soon**; DAX and the report guide are starter materials.
-
-### 5. Accounts payable controls review
-
-A Python review identifies duplicate and near-duplicate candidates, missing purchase orders above a sample threshold, pending approvals, pending bank-detail changes, and overdue unpaid invoices. SQL queries and Power BI starter measures are included.
-
-- [Project notes and exception outputs](projects/05-ap-controls-review/README.md)
-- Power BI `.pbix`: **Coming soon**. Flags are prompts for human review, not fraud or policy findings.
+![13-week cash forecast dashboard](projects/03-thirteen-week-cash-forecast/images/cash_forecast_dashboard.png)
 
 ## Portfolio coverage
 
-| Area | Demonstration included | Status and limits |
+| Area | Demonstrations in this repository | Status and limits |
 |---|---|---|
-| Excel and finance reporting | Department budget vs actual workbook and 13-week cash forecast workbook | Synthetic, formula-driven examples |
-| Excel automation | Optional VBA refresh/export module source | Starter source only; not embedded or executed in Excel |
-| Power BI | DAX and build guides for FP&A, SaaS, and AP views | Native `.pbix` reports are **Coming soon** |
-| SQL | Budget variance, recurring-revenue, cohort, and AP exception queries | SQLite-compatible examples |
-| Python | Reconciliation, cash forecasting, SaaS movement analysis, and AP review | Reproducible synthetic-data demos |
-| Financial modelling | Category-growth forecast and weekly liquidity scenarios | Illustrative models, not management guidance |
-| Accounting and finance automation | Reconciliation and AP exception review | No posting, payment blocking, or ERP integration |
+| Excel | FP&A review, cash forecasting, capital budgeting, and customer profitability workbooks | Synthetic, formula-driven examples |
+| Power BI | DAX measures and build guides for FP&A, SaaS, AP, and customer profitability | Native `.pbix` reports are **Coming soon** |
+| SQL | Variance, recurring revenue, AP review, and contribution analysis | SQLite-compatible examples |
+| Python | Reconciliation, liquidity forecasting, DCF scenarios, cohort analytics, and profitability review | Reproducible synthetic-data demos |
+| Financial modelling | Budget forecast, 13-week cash model, and five-year investment appraisal | Illustrative scenarios, not management or investment advice |
+| Accounting and finance automation | Bank reconciliation and AP exception review | No ERP integration, journal posting, payment blocking, or approval automation |
+| Excel automation | Optional VBA refresh and export module source | Starter module only; not embedded or executed in Excel |
 
-## Reproducibility and data
+## Data, reproducibility, and next steps
 
-Each project contains its own source data, scripts, and run notes. All data is synthetic, generated for portfolio demonstration, and must not be interpreted as company results. The cash forecast is not a treasury system; SaaS ARR is a simple run-rate calculation; AP flags require a human reviewer.
+- Every project includes its own inputs, scripts or queries, and run notes where applicable.
+- All results are generated from fictional data. They must not be interpreted as company performance or benchmarks.
+- Power BI report files remain **Coming soon** until a `.pbix` is built and reviewed.
+- Model assumptions are simplified for learning and portfolio demonstration; each project documents what is excluded.

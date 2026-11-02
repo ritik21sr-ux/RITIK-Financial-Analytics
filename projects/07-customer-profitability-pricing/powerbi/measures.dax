@@ -1,0 +1,23 @@
+-- Model: sales_lines at invoice-product order-line grain.
+
+Gross Sales INR = SUM(sales_lines[gross_sales_inr])
+
+Discounts INR = SUM(sales_lines[discount_inr])
+
+Returns INR = SUM(sales_lines[returns_inr])
+
+Net Revenue INR = SUM(sales_lines[net_revenue_inr])
+
+COGS INR = SUM(sales_lines[cogs_inr])
+
+Variable Selling Costs INR = SUM(sales_lines[shipping_inr]) + SUM(sales_lines[sales_commission_inr])
+
+Contribution INR = SUM(sales_lines[contribution_inr])
+
+Contribution Margin = DIVIDE([Contribution INR], [Net Revenue INR])
+
+Discount Rate = DIVIDE([Discounts INR], [Gross Sales INR])
+
+Average Selling Price INR = DIVIDE([Net Revenue INR], SUM(sales_lines[units]))
+
+Average Order Value INR = DIVIDE([Net Revenue INR], DISTINCTCOUNT(sales_lines[invoice_id]))

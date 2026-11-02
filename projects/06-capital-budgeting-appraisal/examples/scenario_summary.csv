@@ -1,0 +1,4 @@
+scenario,discount_rate_pct,year1_revenue_inr,initial_investment_inr,five_year_npv_inr,irr_pct,discounted_payback_years
+Base,0.12,10500000.0,9050000.0,4926930.43,0.2952,3.49
+Downside,0.14,8600000.0,9532000.0,-3875393.23,-0.0335,Not reached
+Upside,0.1,11500000.0,8650000.0,12680575.67,0.4932,2.4
