@@ -1,0 +1,16 @@
+{
+  "currency": "INR",
+  "synthetic_demo_data": true,
+  "ledger_rows": 7,
+  "bank_rows": 8,
+  "matched_rows": 5,
+  "exception_rows": 5,
+  "exception_counts": {
+    "duplicate_reference": 3,
+    "unmatched_bank": 1,
+    "unmatched_ledger": 1
+  },
+  "matched_ledger_total_inr": 410000,
+  "matched_bank_total_inr": 410000,
+  "unresolved_items_require_review": true
+}

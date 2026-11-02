@@ -1,0 +1,8 @@
+transaction_id,transaction_date,reference,description,amount_inr
+GL-1001,2025-01-31,PAY-1001,January payroll,250000
+GL-1002,2025-02-02,INV-2001,Software subscription,45000
+GL-1003,2025-02-02,INV-2002,Cloud hosting,12000
+GL-1004,2025-02-03,TRV-3001,Travel reimbursement,18000
+GL-1005,2025-02-05,INV-3001,Marketing vendor,85000
+GL-1006,2025-02-28,ACR-4001,Month-end accrual,65000
+GL-1007,2025-02-07,DUP-6001,Duplicate reference example,12500

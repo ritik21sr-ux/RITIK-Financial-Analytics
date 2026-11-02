@@ -1,0 +1,9 @@
+transaction_id,transaction_date,reference,description,amount_inr
+BNK-9001,2025-02-01,PAY-1001,Payroll bulk payment,250000
+BNK-9002,2025-02-03,INV-2001,Software subscription,45000
+BNK-9003,2025-02-03,INV-2002,Cloud hosting,12000
+BNK-9004,2025-02-04,TRV-3001,Travel settlement,18000
+BNK-9005,2025-02-06,INV-3001,Marketing invoice,85000
+BNK-9006,2025-02-06,FEE-5001,Bank service fee,1250
+BNK-9007,2025-02-07,DUP-6001,Duplicate bank reference A,12500
+BNK-9008,2025-02-07,DUP-6001,Duplicate bank reference B,12500

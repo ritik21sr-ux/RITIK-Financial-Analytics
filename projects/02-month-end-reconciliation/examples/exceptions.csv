@@ -1,0 +1,6 @@
+exception_type,source,reference,ledger_id,bank_id,ledger_date,bank_date,ledger_amount_inr,bank_amount_inr,note
+unmatched_ledger,ledger,ACR-4001,GL-1006,,2025-02-28,,65000,,No bank row has this reference.
+duplicate_reference,ledger,DUP-6001,GL-1007,,2025-02-07,,12500,,Reference is not unique on at least one input side; review before matching.
+duplicate_reference,bank,DUP-6001,,BNK-9007,,2025-02-07,,12500,Reference is not unique on at least one input side; review before matching.
+duplicate_reference,bank,DUP-6001,,BNK-9008,,2025-02-07,,12500,Reference is not unique on at least one input side; review before matching.
+unmatched_bank,bank,FEE-5001,,BNK-9006,,2025-02-06,,1250,No ledger row has this reference.

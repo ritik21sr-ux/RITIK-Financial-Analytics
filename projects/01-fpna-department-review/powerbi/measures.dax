@@ -1,0 +1,34 @@
+-- Starter measures for the synthetic monthly_finance model.
+-- Table name: monthly_finance. Amounts are INR.
+
+Budget Amount = SUM ( monthly_finance[budget_inr] )
+
+Actual Amount = SUM ( monthly_finance[actual_inr] )
+
+Revenue Budget =
+CALCULATE ( [Budget Amount], monthly_finance[account_type] = "Revenue" )
+
+Revenue Actual =
+CALCULATE ( [Actual Amount], monthly_finance[account_type] = "Revenue" )
+
+Expense Budget =
+CALCULATE ( [Budget Amount], monthly_finance[account_type] = "Expense" )
+
+Expense Actual =
+CALCULATE ( [Actual Amount], monthly_finance[account_type] = "Expense" )
+
+Contribution Budget = [Revenue Budget] - [Expense Budget]
+
+Contribution Actual = [Revenue Actual] - [Expense Actual]
+
+Revenue Variance = [Revenue Actual] - [Revenue Budget]
+
+Expense Favorable Variance = [Expense Budget] - [Expense Actual]
+
+Contribution Favorable Variance = [Contribution Actual] - [Contribution Budget]
+
+Contribution Variance % =
+DIVIDE ( [Contribution Favorable Variance], [Contribution Budget] )
+
+Actual Contribution Margin =
+DIVIDE ( [Contribution Actual], [Revenue Actual] )
