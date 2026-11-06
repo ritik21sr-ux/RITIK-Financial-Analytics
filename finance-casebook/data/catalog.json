@@ -1,0 +1,82 @@
+[
+  [
+    "01",
+    "FP&A Performance",
+    "Budget variance and exact EBITDA drivers",
+    "variance.csv",
+    "Price and volume attribution depend on bridge order; no causal inference.",
+    "Explain how contribution-volume differs from revenue-volume."
+  ],
+  [
+    "02",
+    "Treasury Stress Test",
+    "13-week liquidity and collection timing",
+    "cash_collections_delay_2w.csv",
+    "Independent treasury dataset; no credit facility assumed.",
+    "Why is peak funding gap different from the sum of weekly gaps?"
+  ],
+  [
+    "03",
+    "Reconciliation Controls",
+    "Unique matching with an exception trail",
+    "exceptions.csv",
+    "No fuzzy matches, period controls or live bank integration.",
+    "Why should duplicate references require review?"
+  ],
+  [
+    "04",
+    "Receivables Ageing",
+    "Collection priority by contractual due date",
+    "advanced_results.json",
+    "Fixed as-of date; no credit loss provision or customer scoring.",
+    "An invoice due today is current; explain the 30/31-day boundary."
+  ],
+  [
+    "05",
+    "Inventory Review",
+    "ABC prioritisation and lower-of-cost/NRV",
+    "advanced_results.json",
+    "ABC class uses cumulative share before the item; thresholds 80/95%. No demand forecast.",
+    "Why can a high-value SKU dominate class A?"
+  ],
+  [
+    "06",
+    "SaaS Revenue Bridge",
+    "MRR movements, retention and ARR run rate",
+    "advanced_results.json",
+    "Aggregate opening cohort only; ARR is run rate, not recognized annual revenue.",
+    "Why must new customer MRR be excluded from NRR?"
+  ],
+  [
+    "07",
+    "Capex Appraisal",
+    "NPV sensitivity and simple payback",
+    "advanced_results.json",
+    "Annual end-period cash flows; time-zero investment. Input flows assumed after tax; no tax engine or IRR.",
+    "Why can payback and NPV give different decisions?"
+  ],
+  [
+    "08",
+    "Forecast Backtest",
+    "Rolling-origin baseline and error measurement",
+    "advanced_results.json",
+    "Tiny synthetic series; illustrative baseline, no claimed production accuracy. WAPE undefined for zero denominator.",
+    "How does rolling-origin evaluation prevent future leakage?"
+  ],
+  [
+    "09",
+    "Journal Controls",
+    "Balance, approval and weekend exception checks",
+    "advanced_results.json",
+    "Risk flags are review triggers, not proof of fraud. Exact INR integers.",
+    "Can a balanced journal still be inappropriate?"
+  ],
+  [
+    "10",
+    "Three-Statement Model",
+    "Linked earnings, working capital and cash",
+    "advanced_results.json",
+    "Single forecast year. Interest on opening debt; tax paid equals tax expense; no deferred tax or negative-tax benefit.",
+    "Explain how a 10-day DSO increase affects cash and the balance sheet."
+  ]
+]

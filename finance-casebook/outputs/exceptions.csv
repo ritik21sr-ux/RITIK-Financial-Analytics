@@ -1,0 +1,12 @@
+source,id,reference,amount,reason
+bank,B096,TXN096,-864000,unmatched_or_amount_difference
+bank,B097,TXN097,970000,unmatched_or_amount_difference
+bank,B098,TXN098,-882000,unmatched_or_amount_difference
+bank,B099,TXN099,990000,unmatched_or_amount_difference
+bank,B100,TXN100,-900000,unmatched_or_amount_difference
+bank,B101,DUP,5000,ambiguous_duplicate
+bank,B102,DUP,5000,ambiguous_duplicate
+bank,B103,FEE,-1200,unmatched_or_amount_difference
+ledger,L096,DUP,5000,review_required
+ledger,L097,PENDING,-8000,review_required
+ledger,L098,FEE,-1000,review_required

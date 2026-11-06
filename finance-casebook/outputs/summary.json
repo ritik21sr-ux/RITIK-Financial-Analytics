@@ -1,0 +1,23 @@
+{
+  "currency": "INR",
+  "data": "Synthetic demonstration only",
+  "budget_revenue": 74304000,
+  "actual_revenue": 72914154,
+  "ebitda_variance": -3351132,
+  "cash_scenarios": {
+    "base": {
+      "minimum_cash": 2220000,
+      "peak_liquidity_gap": 0,
+      "deferred_receipts_after_week13": 0
+    },
+    "collections_delay_2w": {
+      "minimum_cash": 160000,
+      "peak_liquidity_gap": 590000,
+      "deferred_receipts_after_week13": 1820000
+    }
+  },
+  "matched_pairs": 95,
+  "exception_rows": 11,
+  "bank_rows": 103,
+  "ledger_rows": 98
+}

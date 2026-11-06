@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "opening": 1000000,
+      "new": 150000,
+      "expansion": 80000,
+      "contraction": 30000,
+      "churn": 60000
+    }
+  ]
+}

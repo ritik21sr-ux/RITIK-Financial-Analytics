@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "sku": "A1",
+      "units": 100,
+      "cost": 1200,
+      "nrv": 1100,
+      "annual_units": 2000
+    },
+    {
+      "sku": "B2",
+      "units": 60,
+      "cost": 800,
+      "nrv": 900,
+      "annual_units": 800
+    },
+    {
+      "sku": "C3",
+      "units": 150,
+      "cost": 300,
+      "nrv": 200,
+      "annual_units": 400
+    }
+  ]
+}

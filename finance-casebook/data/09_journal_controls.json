@@ -1,0 +1,36 @@
+{
+  "lines": [
+    {
+      "journal": "J1",
+      "debit": 1000,
+      "credit": 0,
+      "date": "2026-11-02",
+      "preparer": "A",
+      "approver": "B"
+    },
+    {
+      "journal": "J1",
+      "debit": 0,
+      "credit": 1000,
+      "date": "2026-11-02",
+      "preparer": "A",
+      "approver": "B"
+    },
+    {
+      "journal": "J2",
+      "debit": 2000,
+      "credit": 0,
+      "date": "2026-11-01",
+      "preparer": "A",
+      "approver": "A"
+    },
+    {
+      "journal": "J2",
+      "debit": 0,
+      "credit": 1900,
+      "date": "2026-11-01",
+      "preparer": "A",
+      "approver": "A"
+    }
+  ]
+}

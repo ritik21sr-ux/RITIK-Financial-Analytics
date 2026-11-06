@@ -1,0 +1,152 @@
+{
+  "04_receivables": [
+    {
+      "id": "INV01",
+      "outstanding": 350000,
+      "days_overdue": 22,
+      "bucket": "1-30"
+    },
+    {
+      "id": "INV02",
+      "outstanding": 320000,
+      "days_overdue": 128,
+      "bucket": "90+"
+    },
+    {
+      "id": "INV03",
+      "outstanding": 0,
+      "days_overdue": 57,
+      "bucket": "31-60"
+    },
+    {
+      "id": "INV04",
+      "outstanding": 600000,
+      "days_overdue": 0,
+      "bucket": "Current"
+    }
+  ],
+  "05_inventory": [
+    {
+      "sku": "A1",
+      "abc": "A",
+      "carrying_value": 110000,
+      "write_down": 10000,
+      "annual_usage_value": 2400000
+    },
+    {
+      "sku": "B2",
+      "abc": "A",
+      "carrying_value": 48000,
+      "write_down": 0,
+      "annual_usage_value": 640000
+    },
+    {
+      "sku": "C3",
+      "abc": "C",
+      "carrying_value": 30000,
+      "write_down": 15000,
+      "annual_usage_value": 120000
+    }
+  ],
+  "06_saas": [
+    {
+      "ending_mrr": 1140000,
+      "arr_run_rate": 13680000,
+      "nrr": 0.99,
+      "grr": 0.91
+    }
+  ],
+  "07_capex": {
+    "npv": 671128.7347254854,
+    "undiscounted_payback_years": 3.0526315789473686,
+    "discount_rate": 0.12
+  },
+  "08_forecasting": {
+    "rows": [
+      {
+        "period": 4,
+        "actual": 135,
+        "forecast": 121.0,
+        "error": 14.0
+      },
+      {
+        "period": 5,
+        "actual": 140,
+        "forecast": 126.0,
+        "error": 14.0
+      },
+      {
+        "period": 6,
+        "actual": 138,
+        "forecast": 131.0,
+        "error": 7.0
+      },
+      {
+        "period": 7,
+        "actual": 150,
+        "forecast": 137.66666666666666,
+        "error": 12.333333333333343
+      },
+      {
+        "period": 8,
+        "actual": 145,
+        "forecast": 142.66666666666666,
+        "error": 2.333333333333343
+      },
+      {
+        "period": 9,
+        "actual": 160,
+        "forecast": 144.33333333333334,
+        "error": 15.666666666666657
+      },
+      {
+        "period": 10,
+        "actual": 158,
+        "forecast": 151.66666666666666,
+        "error": 6.333333333333343
+      },
+      {
+        "period": 11,
+        "actual": 170,
+        "forecast": 154.33333333333334,
+        "error": 15.666666666666657
+      },
+      {
+        "period": 12,
+        "actual": 180,
+        "forecast": 162.66666666666666,
+        "error": 17.333333333333343
+      }
+    ],
+    "mae": 11.629629629629632,
+    "wape": 0.07606589147286823,
+    "bias": 11.629629629629632
+  },
+  "09_journal_controls": [
+    {
+      "journal": "J2",
+      "reasons": [
+        "unbalanced",
+        "approval_conflict",
+        "weekend_review"
+      ]
+    }
+  ],
+  "10_three_statements": {
+    "revenue": 12000000,
+    "cogs": 6600000.000000001,
+    "ebit": 2699999.999999999,
+    "interest": 200000.0,
+    "tax": 624999.9999999998,
+    "net_income": 1874999.9999999993,
+    "cfo": 1714726.0273972591,
+    "closing_cash": 2114726.027397259,
+    "closing_ar": 1479452.0547945206,
+    "closing_inventory": 904109.589041096,
+    "closing_ap": 723287.6712328768,
+    "closing_ppe": 3300000,
+    "closing_debt": 1700000,
+    "closing_equity": 5374999.999999999,
+    "balance_check": -9.313225746154785e-10
+  }
+}

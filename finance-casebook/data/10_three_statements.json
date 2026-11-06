@@ -1,0 +1,21 @@
+{
+  "revenue": 12000000,
+  "cogs_pct": 0.55,
+  "opex": 2400000,
+  "depreciation": 300000,
+  "opening_debt": 2000000,
+  "interest_rate": 0.1,
+  "tax_rate": 0.25,
+  "dso": 45,
+  "dio": 50,
+  "dpo": 40,
+  "opening_ar": 1000000,
+  "opening_inventory": 800000,
+  "opening_ap": 600000,
+  "opening_cash": 1500000,
+  "opening_ppe": 3000000,
+  "capex": 600000,
+  "new_debt": 0,
+  "repayment": 300000,
+  "dividends": 200000
+}

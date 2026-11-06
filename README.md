@@ -40,3 +40,12 @@ The cash-flow case links AR collection assumptions, AP schedules, operating cost
 - All results are generated from fictional data. They must not be interpreted as company performance or benchmarks.
 - Power BI report files remain **Coming soon** until a `.pbix` is built and reviewed.
 - Model assumptions are simplified for learning and portfolio demonstration; each project documents what is excluded.
+
+## Finance casebook — 10 additional runnable demonstrations
+
+[Browse the full casebook and source code](finance-casebook/README.md). Includes FP&A variance bridges, 13-week liquidity stress, bank reconciliation, receivables ageing, inventory valuation, SaaS retention, capex NPV, forecast backtesting, journal controls and a linked one-year three-statement model.
+
+- **Validation:** 18 local tests passed; assumptions and limitations documented.
+- **Run:** `cd finance-casebook`, then `python run_all.py` and `python -m unittest discover -s tests -v`.
+- **Visual presentation:** open `finance-casebook/outputs/portfolio.html` locally after downloading/cloning the repository. GitHub displays HTML source, not a hosted dashboard.
+- **Data:** synthetic, AI-assisted personal case studies, not employer achievements. Some subjects overlap the original projects with different examples.
